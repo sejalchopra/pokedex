@@ -24,7 +24,7 @@ class Pokemon {
     private var _nextEvolutionId: String!
     private var _nextEvolutionLevel: String!
     
-   
+   // getters for each variable
     var nextEvolutionLevel: String! {
         if _nextEvolutionLevel == nil {
             _nextEvolutionLevel = ""
